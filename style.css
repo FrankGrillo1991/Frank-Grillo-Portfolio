@@ -88,6 +88,12 @@ section {
   color: #333;
 }
 
+.skill i:hover {
+  color: #007bff;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
 
 form {
   display: flex;
