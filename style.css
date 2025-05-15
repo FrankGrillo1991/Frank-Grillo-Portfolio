@@ -12,31 +12,63 @@ body {
   padding: 20px;
 }
 
+/* Header and Navbar */
 header {
-  text-align: center;
-  margin-bottom: 20px;
+  background-color: #121212;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
+
+.navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 4px;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #ffffff;
+  border-bottom: 2px solid #2196f3;
+}
+
+/* Active link example */
+.nav-links a.active {
+  color: #2196f3;
+  border-bottom: 2px solid #2196f3;
+}
+
 
 #about {
   text-align: center;
   max-width: 800px;
   margin: 0 auto 40px auto;
   padding: 20px;
-}
-
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-bottom: 30px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  margin: 0 15px;
-  font-weight: bold;
 }
 
 section {
