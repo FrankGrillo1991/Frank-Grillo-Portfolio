@@ -119,6 +119,44 @@ section {
   border-radius: 10px;
 }
 
+#about {
+  color: #e0e0e0; /* lighter than default gray */
+}
+
+#about h2 {
+  color: #f1f1f1;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+#about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #d0d0d0;
+}
+
+
+#skills {
+  color: #e0e0e0;
+  text-align: center;
+}
+
+#skills h2 {
+  color: #f1f1f1;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  color: #cccccc;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.skill-icon:hover {
+  color: #2196f3; /* accent color on hover */
+}
 
 .skills-grid {
   display: flex;
