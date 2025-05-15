@@ -99,6 +99,18 @@ section {
   box-shadow: 0 6px 14px rgba(0,0,0,0.5);
 }
 
+.project-card h3 {
+  color: #f1f1f1;
+  font-size: 1.3rem;
+  margin: 10px 0 5px;
+}
+
+.project-card p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 
 
 #skills {
