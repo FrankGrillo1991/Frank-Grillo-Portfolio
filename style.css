@@ -139,6 +139,13 @@ section {
 
 .ai-tools h2 {
   text-align: center;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.ai-tools ul {
+  list-style: none;
+  padding: 0;
 }
 
 .project-links a {
