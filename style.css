@@ -101,6 +101,10 @@ section {
   min-height: 350px; /* Adjust height as needed */
 }
 
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
 .project-links {
   display: flex;
   justify-content: center;
