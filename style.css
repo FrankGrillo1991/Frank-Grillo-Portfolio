@@ -137,7 +137,9 @@ section {
   padding: 20px 0;
 }
 
-
+.ai-tools h2 {
+  text-align: center;
+}
 
 .project-links a {
   display: inline-flex;
