@@ -90,6 +90,8 @@ section {
 }
 
 .project-card {
+  position: relative;
+  overflow: hidden;
   min-height: 400px;
   display: flex;
   flex-direction: column;
@@ -111,6 +113,20 @@ section {
   gap: 12px;
   margin-top: auto;
   flex-wrap: wrap;
+}
+
+.featured-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #ff4757;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .project-links a {
