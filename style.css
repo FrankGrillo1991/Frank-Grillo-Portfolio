@@ -467,30 +467,94 @@ footer p {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* 📱 Mobile styles: smaller screens */
-@media (max-width: 767px) {
-  #hero {
-    padding: 3rem 1rem;
+
+#hero {
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.hero-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-color: #4CAF50;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text h1 span {
+  color: #4CAF50;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-links a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.hero-links a:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* Responsive for small screens: stack vertically */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  #hero h1 {
+  .hero-text {
+    flex: none;
+  }
+
+  .hero-text h1 {
     font-size: 2rem;
   }
-
-  #hero p {
-    font-size: 1rem;
-  }
-
-  .hero-links {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .hero-links a {
-    width: 80%;
-    max-width: 250px;
-  }
 }
+
 
 /* 📱 Tablet styles: medium screens */
 @media (min-width: 768px) and (max-width: 1023px) {
