@@ -371,3 +371,50 @@ footer p {
 .social-icons a:hover {
   color: #2196f3;
 }
+
+#hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero h1 span {
+  color: #4CAF50; /* Accent color */
+}
+
+#hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.hero-links a:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
