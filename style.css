@@ -418,3 +418,106 @@ footer p {
   color: #fff;
 }
 
+#hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero h1 span {
+  color: #4CAF50;
+}
+
+#hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.hero-links a:hover {
+  background-color: #4CAF50;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* 📱 Mobile styles: smaller screens */
+@media (max-width: 767px) {
+  #hero {
+    padding: 3rem 1rem;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  .hero-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-links a {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
+/* 📱 Tablet styles: medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #hero p {
+    font-size: 1.1rem;
+  }
+}
+
+.hero-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.hero-links a:hover {
+  background-color: #4CAF50;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
