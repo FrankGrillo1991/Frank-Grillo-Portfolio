@@ -660,28 +660,3 @@ footer p {
   background-color: #4CAF50;
   color: #fff;
 }
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.navbar a {
-  margin-right: 1rem;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-.navbar .nav-left a:last-child {
-  margin-right: 0;
-}
-
-.navbar .nav-right {
-  display: flex;
-  align-items: center;
-}
