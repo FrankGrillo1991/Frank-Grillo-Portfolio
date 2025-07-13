@@ -715,3 +715,24 @@ header {
 /* Remove duplicate .project-img and .project blocks to prevent conflicts */
 
 
+.project ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.project ul li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 0.4rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+.project ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+  font-weight: bold;
+}
