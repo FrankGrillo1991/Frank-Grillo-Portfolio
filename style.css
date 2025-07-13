@@ -464,23 +464,25 @@ button[type="submit"]:hover {
   transform: translateY(-2px);
 }
 
+
 footer {
+  background-color: #111;
+  color: #ccc;
   text-align: center;
-  padding: 16px;
-  margin-top: 40px;
+  padding: 30px 20px;
   font-size: 0.9rem;
-  color: #666;
-  border-top: 1px solid #ddd;
-  background-color: #f9f9f9;
+  border-top: 1px solid #333;
 }
 
 footer a {
   color: #007acc;
   text-decoration: none;
   margin: 0 5px;
+  transition: color 0.3s ease;
 }
 
 footer a:hover {
+  color: #2196f3;
   text-decoration: underline;
 }
 
