@@ -329,13 +329,13 @@ section {
 }
 
 .project-card h3 {
-  color: #222;
+  color: #f1f1f1;
   font-size: 1.3rem;
   margin: 10px 0 5px;
 }
 
 .project-card p {
-  color: #444;
+  color: #e0e0e0;
   font-size: 0.95rem;
   line-height: 1.5;
 }
