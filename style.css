@@ -465,17 +465,25 @@ button[type="submit"]:hover {
 }
 
 footer {
-  background-color: #111;
-  color: #ccc;
   text-align: center;
-  padding: 30px 20px;
+  padding: 16px;
+  margin-top: 40px;
   font-size: 0.9rem;
-  border-top: 1px solid #333;
+  color: #666;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9;
 }
 
-footer p {
-  margin-bottom: 10px;
+footer a {
+  color: #007acc;
+  text-decoration: none;
+  margin: 0 5px;
 }
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 
 .social-icons {
   display: flex;
