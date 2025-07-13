@@ -588,24 +588,6 @@ footer p {
   }
 }
 
-.hero-links a {
-  display: inline-block;
-  text-decoration: none;
-  color: #4CAF50;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border: 2px solid #4CAF50;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-.hero-links a:hover {
-  background-color: #4CAF50;
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
 #blog {
   padding: 2rem 1rem;
   max-width: 800px;
