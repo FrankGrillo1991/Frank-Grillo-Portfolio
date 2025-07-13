@@ -193,18 +193,19 @@ section {
 
 
 .project-card {
-  border: 1px solid #ccc;
+  background-color: #2c2c2c; /* dark gray */
+  color: #f1f1f1; /* light text */
+  border: 1px solid #444;
   border-radius: 8px;
   padding: 16px;
   margin: 16px 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background-color: #fff;
 }
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
 }
 
 .project-card img {
@@ -219,13 +220,15 @@ section {
   margin-right: 10px;
   margin-top: 8px;
   text-decoration: none;
-  color: #007acc;
+  color: #4eaaff; /* lighter blue link */
   font-weight: bold;
 }
 
 .project-card a:hover {
   text-decoration: underline;
 }
+
+
 
 
 
