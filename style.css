@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-}
+
 
 body {
   background-color: #f4f4f4;
@@ -329,13 +329,13 @@ section {
 }
 
 .project-card h3 {
-  color: #f1f1f1;
+  color: #222;
   font-size: 1.3rem;
   margin: 10px 0 5px;
 }
 
 .project-card p {
-  color: #cccccc;
+  color: #444;
   font-size: 0.95rem;
   line-height: 1.5;
 }
