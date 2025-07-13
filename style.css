@@ -716,3 +716,14 @@ header {
 
 
 /* Remove conflicting .project ul and .project ul li styles */
+.project ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.project ul li {
+  margin-bottom: 0.4rem;
+  color: #333;
+  line-height: 1.4;
+}
