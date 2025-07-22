@@ -1,13 +1,13 @@
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+max-width: 100%;
+height: auto;
+display: block;
 
 .icon svg {
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
-  padding-top: 80px;
+  width: 48px;
+  height: 48px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
 
 
 /* Header and Navbar */
