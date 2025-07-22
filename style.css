@@ -855,3 +855,31 @@ img {
 }
 
 
+
+.icon {
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.icon.github {
+  background-image: url('github-copilot.svg');
+}
+
+.icon.chatgpt {
+  background-image: url('chatgpt.svg');
+}
+
+.icon.codia {
+  background-image: url('codia.svg');
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+}
