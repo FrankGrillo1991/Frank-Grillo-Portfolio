@@ -269,15 +269,17 @@ header {
   display: inline-block;
 }
 
+
 .nav-links a {
   text-decoration: none;
-  color: #111;
+  color: #f1f1f1;
   font-weight: bold;
   font-size: 1.08rem;
   padding: 8px 18px;
   border-radius: 6px;
   transition: background 0.2s, color 0.2s;
 }
+
 
 .nav-links a.github-repo {
   color: #fff;
@@ -293,7 +295,7 @@ header {
   color: #fff;
   border-color: #111;
 }
-}
+
 
 .nav-links a:hover {
   background-color: #2196f3;
