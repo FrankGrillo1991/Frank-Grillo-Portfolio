@@ -1,3 +1,27 @@
+/* Edge-specific fixes for flexbox gap and border-radius rendering */
+@supports (-webkit-touch-callout: none) {
+  .about-content,
+  .hero-container,
+  .project-links {
+    gap: 20px;
+    /* fallback for Edge/IE */
+    margin-right: 0;
+  }
+  .project-card,
+  .about-photo,
+  .hero-photo {
+    /* fallback for Edge/IE */
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+  }
+}
+
+/* Ensure flexbox gap works in Edge */
+.about-content,
+.hero-container,
+.project-links {
+  gap: 20px;
+}
 #contact h2 {
   color: #111;
 }
