@@ -1,3 +1,17 @@
+#about .about-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 18px;
+}
+
+#about .about-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
 
 /* Header and Navbar - Restored Original Design */
 header {
@@ -97,23 +111,29 @@ header {
 }
 
 
+
 #about {
+  background: #f9f9f9;
+  color: #333;
   text-align: center;
   max-width: 800px;
   margin: 56px auto 40px auto;
-  color: #e0e0e0;
+  padding: 32px 20px 28px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 #about h2 {
-  color: #f1f1f1;
-  font-size: 1.8rem;
-  margin-bottom: 15px;
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 18px;
 }
 
 #about p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #d0d0d0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 0;
 }
 
 
