@@ -15,7 +15,7 @@
 .about-content {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
   flex-wrap: wrap;
   justify-content: center;
 }
