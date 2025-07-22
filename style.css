@@ -1,3 +1,19 @@
+/* Restored Original Project Card Styles */
+.project-card {
+  background-color: #2c2c2c; /* dark gray */
+  color: #f1f1f1; /* light text */
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
 /* Restored Original Project Card Image Styles */
 .project-card img {
   max-width: 100%;
