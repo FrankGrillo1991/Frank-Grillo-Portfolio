@@ -1,3 +1,44 @@
+/* Original/classic AI Tools section styles */
+.ai-tools-original {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 24px 0;
+}
+.ai-tools-original li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  color: #222;
+}
+.ai-tool-icon.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.ai-tools-original .ai-tool-icon svg {
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+.ai-tool-name {
+  margin-top: 2px;
+  font-weight: 600;
+  color: #222;
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 700px) {
+  .ai-tools-original {
+    flex-direction: column;
+    gap: 18px;
+  }
+}
 /* Button styles for project card links */
 .project-links a.live-demo {
   background-color: #2196f3;
