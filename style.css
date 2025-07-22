@@ -937,12 +937,6 @@ footer a:hover {
   background-color: #4CAF50;
   color: #fff;
 }
-
-
-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 
 .navbar {
@@ -958,11 +952,7 @@ header {
 }
 
 .navbar .nav-left {
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-}
+
 
 .navbar .nav-left a:last-child {
   color: #ffffff;
@@ -1012,19 +1002,7 @@ img {
 
 
 
-}
-.icon svg {
-  width: 48px;
-  height: 48px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  cursor: pointer;
-}
 
-.icon:hover svg {
-  transform: scale(1.1);
-  opacity: 0.8;
-}
-}
 
 .blog-post {
   padding: 2rem;
@@ -1079,4 +1057,5 @@ img {
   border-left: 4px solid #2196f3;
   font-style: italic;
   color: #555;
+}
 }
