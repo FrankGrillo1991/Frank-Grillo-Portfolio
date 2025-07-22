@@ -1,3 +1,15 @@
+#blog pre {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#blog h3 {
+  text-align: center;
+  width: 100%;
+}
+#blog blockquote {
+  text-align: center;
+}
 #blog h2 {
   text-align: center;
   width: 100%;
