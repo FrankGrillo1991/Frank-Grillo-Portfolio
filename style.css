@@ -1,3 +1,7 @@
+#about h2 {
+  text-align: center;
+  width: 100%;
+}
 .skills-center {
   display: flex;
   flex-direction: column;
