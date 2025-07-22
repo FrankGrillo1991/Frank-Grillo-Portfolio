@@ -1,3 +1,7 @@
+/* Make Projects section heading white */
+#projects h2 {
+  color: #fff;
+}
 #blog ul {
   text-align: center;
   list-style: none;
