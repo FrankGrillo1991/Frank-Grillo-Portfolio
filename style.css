@@ -1,14 +1,7 @@
 img {
-max-width: 100%;
-height: auto;
-display: block;
-
-.icon svg {
-  width: 48px;
-  height: 48px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  cursor: pointer;
-
+  max-width: 100%;
+  height: auto;
+  display: block;
 
 /* Header and Navbar */
 header {
@@ -18,7 +11,6 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
-}
 
 .navbar {
   display: flex;
