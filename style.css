@@ -1,3 +1,11 @@
+#blog ul {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+#blog li {
+  text-align: center;
+}
 #blog pre {
   text-align: center;
   margin-left: auto;
