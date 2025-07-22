@@ -225,54 +225,84 @@ img {
   z-index: 1;
 }
 
+
+/* AI Tools Section - Modernized and Responsive */
 .ai-tools {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 28px;
-  padding: 30px 0 10px 0;
+  gap: 32px;
+  padding: 40px 0 20px 0;
+  background: #181c1f;
+  border-radius: 12px;
+  margin: 40px auto 0 auto;
+  max-width: 1100px;
 }
 
 .ai-tool {
   background: #23272f;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.18);
-  padding: 28px 24px 20px 24px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.16);
+  padding: 32px 28px 24px 28px;
   min-width: 220px;
   max-width: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.22s, box-shadow 0.22s;
+  border: 1.5px solid #232b3a;
 }
 
 .ai-tool:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 6px 18px rgba(33,150,243,0.18);
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(33,150,243,0.18);
+  border-color: #2196f3;
 }
 
 .ai-tool-icon {
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
-  margin-bottom: 16px;
-  border-radius: 8px;
+  margin-bottom: 18px;
+  border-radius: 10px;
   background: #181c22;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ai-tool h3 {
   color: #f1f1f1;
-  font-size: 1.15rem;
-  margin-bottom: 8px;
+  font-size: 1.18rem;
+  margin-bottom: 10px;
   margin-top: 0;
+  letter-spacing: 0.01em;
 }
 
 .ai-tool p {
   color: #bfc7d5;
-  font-size: 0.98rem;
+  font-size: 1.01rem;
   margin-bottom: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .ai-tools {
+    gap: 18px;
+    padding: 28px 0 10px 0;
+  }
+  .ai-tool {
+    min-width: 180px;
+    max-width: 220px;
+    padding: 22px 12px 16px 12px;
+  }
+  .ai-tool-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+  }
 }
 
 .project-links a {
