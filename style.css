@@ -36,9 +36,7 @@
   text-align: left;
 }
 body {
-  font-family: Arial, sans-serif;
-}
-#projects h2 {
+  /* Removed sticky from header, only .navbar is sticky */
   text-align: center;
   width: 100%;
 }
@@ -48,9 +46,9 @@ body {
 }
 #about h2 {
   text-align: center;
-  width: 100%;
-}
-.skills-center {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   align-items: center;
