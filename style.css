@@ -571,7 +571,7 @@ img {
   max-width: 600px;
 }
 #skills h2 {
-  color: #222;
+  color: #fff;
   font-size: 2rem;
   margin-bottom: 14px;
 }
@@ -585,7 +585,7 @@ img {
 #skills li {
   margin-bottom: 10px;
   font-size: 1.08rem;
-  color: #333;
+  color: #fff;
 }
 
 
