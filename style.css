@@ -1,3 +1,81 @@
+/* Mobile-friendly improvements */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0 4px;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    align-items: flex-start;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-links li {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .nav-links a {
+    padding: 10px 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+  .hero-container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 4px;
+  }
+  .hero-photo {
+    width: 120px;
+    height: 120px;
+  }
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+  #skills {
+    max-width: 100%;
+    padding: 10px;
+  }
+  #skills h2 {
+    font-size: 1.3rem;
+  }
+  #skills ul {
+    padding-left: 12px;
+    font-size: 1rem;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 12px 0 0 0;
+  }
+  .project-card {
+    padding: 10px;
+    margin: 8px 0;
+  }
+  #contact {
+    max-width: 100%;
+    padding: 16px 8px;
+  }
+  #contact h2 {
+    font-size: 1.3rem;
+  }
+  #contact input,
+  #contact textarea {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+  }
+  #contact button[type="submit"] {
+    font-size: 1rem;
+    padding: 10px 14px;
+  }
+}
 /* Edge-specific fixes for flexbox gap and border-radius rendering */
 @supports (-webkit-touch-callout: none) {
   .about-content,
